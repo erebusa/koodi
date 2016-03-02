@@ -1,0 +1,69 @@
+
+#footer {
+    background-color:#CCCCCC;
+	color:#FFFFFF;
+	clear:both;
+	text-align:center;
+	padding:25px;	 	 
+}
+.koodi{
+    font-size: 21px;
+    line-height: .01;
+    color: #737372;
+    font-family: arial;
+}
+#project{
+    text-align: center;
+}
+.koodi2{
+    font-size: 22px;
+    font-family: arial;
+}
+#footer1 {
+	background-color:#3a3a3a;
+	color:white;
+	clear:both;
+	text-align:center;
+	padding:25px;   
+}			
+#footer2 {
+	background-color:#252522;
+	color:#CCCCCC;
+	clear:both;
+	text-align:left;
+    padding:10px;
+    font-size: small;
+}
+.pp{
+    text-align: left;
+    font-size: medium;
+    float: right;
+}
+.ppp{
+    font-size: 22px;
+}
+section > ul > li{
+    text-align: center;
+    float: left;
+    list-style: none;
+    width: 310px;   
+}
+li > a{
+    float: left;
+}
+strong{
+    float: left;
+    color: #727272;
+    font-size: large;
+}
+article{
+    background-color:#fbf5cb;
+    height: 250px;
+}
+nav{
+    text-align: justify;
+    float: left;
+    width: 340px;
+    margin: 50px;
+}
+

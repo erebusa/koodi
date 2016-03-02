@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Untitled</title>
+	</head>
+	<body>
+		<table align="center" border="0">
+  			<tr>
+    			<th><h1 align="justify"><font color="#666666">Contact</font></h1>
+      				<div align="justify"><p><br>
+              		<font color="#666666">YOUR NAME *</font></p>
+     				<p><input name="Input" type="text" size="70" height="30"><br><br>
+          			<font size="-1" color="#666666">YOUR E-MAIL ADRESS *</font></p>
+     				<p><input name="Input2" type="text" size="70" height="30"><br><br>
+          			<font size="-1" color="#666666">SUBJECT *</font></p>
+        			<p><input name="Input2" type="text" size="70" height="30"><br><br>
+					<font size="-1" color="#666666">MESSAGE *</font></p>
+       				<p><textarea name="textarea" cols="70" rows="15"></textarea><br><br>
+					<font size="-1" color="#666666">MATH QUESTION* 10 + 3 =</font></p>
+        			<p><input name="Input2" type="text" size="70" height="30"><br></p></div>
+      				<p align="justify"><img src="img2/sendmessage.png" name="message" width="148" height="43" onMouseOver="document.message.src='img2/sendmessage2.png'" onMouseOut="document.message.src='img2/sendmessage.png'"></th>
+    			<th> 
+						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+						<div style='overflow:hidden;height:440px;width:700px;'>
+						<div id='gmap_canvas' style='height:440px;width:700px;'></div>
+						<div><small><a href="http://embedgooglemaps.com">embed google map </a></small></div>
+						<div><small><a href="http://googlemapsgenerator.com">google maps html code</a></small></div>
+					 <style>
+							#gmap_canvas img{max-width:none!important;background:none!important}
+					</style>
+					</div>
+					<p><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(15.0593937,120.65670539999996),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(15.0593937,120.65670539999996)});infowindow = new google.maps.InfoWindow({content:'<strong>Pet matters</strong><br>San fernando philippines<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></p>				
+				</th>
+			</tr>
+		</table>
+	</body>
+	
+</html>
